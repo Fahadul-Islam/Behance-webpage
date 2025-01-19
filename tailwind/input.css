@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .common_btn_primary{
+        @apply rounded-full bg-primary py-[10px] px-[21px] text-white text-base font-bold;
+    }
+    .common_btn_secondary{
+        @apply rounded-full bg-btn_secondary py-[10px] px-[21px] text-primary text-base font-bold border border-[#DEE8FF];
+    }
+}
